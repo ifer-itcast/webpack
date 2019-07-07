@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const UglifyjsWebpackPlugin = require('uglifyjs-webpack-plugin');
 const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 const htmlIndexPlugin = new HtmlWebpackPlugin({
     template: path.join(__dirname, './src/index.html'),
@@ -31,6 +32,7 @@ module.exports = {
         hot: true,
         contentBase: path.resolve('dist')
     },
+    devtool: 'source-map',
     module: {
         rules: [
             /* {
@@ -107,7 +109,9 @@ module.exports = {
         }),
         // new webpack.ProvidePlugin({
         //     $: 'jquery'
-        // })
+        // }),
+        new webpack.BannerPlugin('weixian'),
+        new CleanWebpackPlugin()
     ],
     externals: {
         jquery: '$'

@@ -1,1 +1,3 @@
-console.log('hello index');
+import {a} from './a';
+
+console.log(a);

@@ -76,3 +76,7 @@ module.exports = {
 
 - 压缩 JS，`uglifyjs-webpack-plugin`
 - 压缩 CSS，`optimize-css-assets-webpack-plugin`
+
+## 09_morepage
+
+- 多页面，还是用到了 `html-webpack-plugin`
