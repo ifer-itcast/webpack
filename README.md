@@ -13,5 +13,5 @@
     - 使用 CSS
     - 使用 Less
     - 使用 Sass
-- 使用 autoprefixer 给样式加前缀
-- 抽离样式
+    - 使用 autoprefixer 给样式加前缀
+    - 抽离样式
