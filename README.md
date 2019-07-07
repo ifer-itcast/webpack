@@ -80,3 +80,7 @@ module.exports = {
 ## 09_morepage
 
 - 多页面，还是用到了 `html-webpack-plugin`
+
+## 10_server
+
+- 使用代理（Proxy），实现跨域请求
