@@ -71,3 +71,8 @@ module.exports = {
     }
 };
 ```
+
+## 08_compress
+
+- 压缩 JS，`uglifyjs-webpack-plugin`
+- 压缩 CSS，`optimize-css-assets-webpack-plugin`
