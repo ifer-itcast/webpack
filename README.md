@@ -39,3 +39,10 @@
 如何使用 TS？
 
 - 依赖 `typescript`、`ts-loader`
+
+## 06_react
+
+如何使用 React？
+
+- 使用 React，`react`、`react-dom`
+- 使用 JSX，`@babel/preset-react`
