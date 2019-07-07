@@ -15,3 +15,10 @@
     - 使用 Sass
     - 使用 autoprefixer 给样式加前缀
     - 抽离样式
+
+## 03_image
+
+- 使用图片
+    - JS 和 CSS 中使用
+    - HTML 中使用
+
