@@ -46,3 +46,28 @@
 
 - 使用 React，`react`、`react-dom`
 - 使用 JSX，`@babel/preset-react`
+
+## 07_jquery
+
+如何配置全局变量？
+
+```javascript
+module.exports = {
+    plugins: [
+        new webpack.ProvidePlugin({
+            $: 'jquery'
+        })
+    ]
+}
+```
+
+如何不打包已经通过 CDN 引入的库？
+
+```javascript
+module.exports = { 
+    externals: {
+        // 意思是这个 jquery 是外部提供的，别再给老子打包进去了
+        jquery: '$'
+    }
+};
+```
