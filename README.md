@@ -33,3 +33,9 @@
 - 转换装饰器等，`@babel/plugin-proposal-decorators`
 - 转换生成器等，`@babel/plugin-transform-runtime`、`@babel/runtime`
 - 转换 includes 等，`@babel/polyfill`
+
+## 05_ts
+
+如何使用 TS？
+
+- 依赖 `typescript`、`ts-loader`
