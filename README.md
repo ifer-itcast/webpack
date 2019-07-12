@@ -11,6 +11,7 @@
 
 如何使用 Loader 和 样式？
 
+- 使用 HTML 片段，`html-loader`
 - 使用 CSS，`style-loader`、`css-loader`
 - 使用 Less，`less`、`less-loader`
 - 使用 Sass，`node-sass`、`sass-loader`
